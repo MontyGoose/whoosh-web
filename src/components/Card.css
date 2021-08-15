@@ -1,0 +1,51 @@
+.Card {
+  text-decoration: none;
+  background: white;
+  color: inherit;
+  border: 1px solid var(--lightGrey);
+  border-radius: var(--borderRadius);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.15s ease-in-out;
+  overflow: hidden;
+}
+
+.Card:hover,
+.Card:focus {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
+}
+
+.Card--Image {
+  margin: 0 0 2rem 0;
+  width: 100%;
+  height: 15rem;
+}
+
+.Card--Title {
+  margin: 0;
+}
+
+.Card--Content {
+  background: #1F2124;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  border-radius: 5px;
+  margin: 50px 20px 20px 20px;
+  width: calc(33.3333% - 40px); /* 1/3 minus the margins (20+20) */
+  padding: 20px;
+  text-align: center;
+  color: white;
+  float: left;
+  @media (max-width: 768px) {
+    margin: 10px 20px;
+    width: calc(100% - 40px);
+    &:first-child {
+      margin-top: 20px;
+    }
+  }}
+
+.Card--Category {
+  font-size: 1.2rem;
+  min-height: 1.2em;
+  line-height: 1;
+  margin: 0.5em 0;
+}

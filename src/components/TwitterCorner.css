@@ -1,0 +1,35 @@
+.TwitterCorner {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+.TwitterCorner svg {
+  color: #fff;
+  border: 0;
+  max-width: 6rem;
+  max-height: 6rem;
+}
+
+
+.TwitterCorner:hover .bird-wing{
+  animation: fly .4s linear; transform-origin: right center;
+}
+@keyframes fly{
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: rotateY(-180deg) translateX(-50%) translateY(10%) rotateZ(-50deg);
+  }
+  100%{
+    transform: translateX(0);}
+  }
+
+@media (max-width: 600px) {
+  .TwitterCorner {
+    position: absolute;
+    top: 6rem;
+    z-index: 1;
+  }
+}
