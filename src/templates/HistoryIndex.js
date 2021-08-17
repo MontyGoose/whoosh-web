@@ -39,7 +39,6 @@ export const HistoryIndexTemplate = ({
   subtitle,
   featuredImage,
   posts = [],
-  postCategories = [],
   enableSearch = true,
   contentType
 }) => (

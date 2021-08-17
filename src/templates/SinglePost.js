@@ -12,6 +12,7 @@ export const SinglePostTemplate = ({
   featuredImage,
   title,
   date,
+  section,
   body,
   nextPostURL,
   prevPostURL,
@@ -35,6 +36,13 @@ export const SinglePostTemplate = ({
         </Link>
         <div className="SinglePost--Content relative">
           <div className="SinglePost--InnerContent">
+          {!!section &&
+          section.map((section, index) => (
+            <div className="section">
+              <Content source={section.content} />
+              <img src={section.image} className={`SinglePost--Image ${section.align}`} />
+            </div>
+          ))}
             <Content source={body} />
           </div>
 
@@ -99,6 +107,11 @@ export const pageQuery = graphql`
         template
         subtitle
         date(formatString: "MMMM Do, YYYY")
+        section {
+          image
+          align
+          content
+        }
         categories {
           category
         }

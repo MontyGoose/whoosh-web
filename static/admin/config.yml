@@ -363,6 +363,16 @@ collections: # A list of collections the CMS should be able to edit
           required: false,
         }
       - { label: Excerpt, name: excerpt, widget: text }
+      - label: 'Section'
+        name: 'section'
+        widget: 'list'
+        fields:
+        - { name: image, label: Image, widget: image, default: '' }
+        - label: "Align Image"
+          name: "align"
+          widget: "select"
+          options: ["left", "center", "right"]
+        - { name: content, label: Content, widget: markdown }
       - { label: Content, name: body, widget: markdown }
       - label: 'Meta'
         required: false
