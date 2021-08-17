@@ -20,7 +20,7 @@
     "gatsby-plugin-offline": "^3.0.17",
     "gatsby-plugin-postcss": "^2.1.13",
     "gatsby-plugin-react-helmet": "^3.1.13",
-    "gatsby-plugin-sass": "^2.1.20",
+    "gatsby-plugin-sass": "^2.8.0",
     "gatsby-plugin-sharp": "^2.2.36",
     "gatsby-plugin-sitemap": "^2.2.19",
     "gatsby-remark-images": "^3.1.28",
@@ -36,6 +36,7 @@
     "modern-normalize": "^0.5.0",
     "netlify-cms-app": "^2.11.14",
     "netlify-cms-media-library-uploadcare": "^0.5.5",
+    "postcss-import": "^14.0.2",
     "postcss-preset-env": "^6.7.0",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
@@ -43,7 +44,8 @@
     "react-feather": "^2.0.3",
     "react-helmet": "^5.2.1",
     "react-markdown": "^4.2.2",
-    "react-photoswipe": "^1.3.0"
+    "react-photoswipe": "^1.3.0",
+    "sass": "^1.37.5"
   },
   "keywords": [
     "gatsby"
@@ -59,7 +61,6 @@
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\""
   },
   "devDependencies": {
-    "prettier": "^1.18.2",
-    "sass": "^1.32.8"
+    "prettier": "^1.18.2"
   }
 }

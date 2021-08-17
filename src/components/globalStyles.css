@@ -26,6 +26,11 @@
   background: rgba(0, 194, 189, 0.6);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+} 
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -189,10 +194,10 @@ blockquote {
   margin: 0 auto;
 }
 .container.skinny {
-  max-width: 888px;
+  max-width: 1000px;
 }
 .container.skinnier {
-  max-width: 555px;
+  max-width: 888px;
 }
 
 /* Buttons */

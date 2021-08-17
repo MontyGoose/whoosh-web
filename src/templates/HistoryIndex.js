@@ -5,7 +5,6 @@ import qs from 'qs'
 
 import PageHeader from '../components/PageHeader'
 import PostSection from '../components/PostSection'
-import PostCategoriesNav from '../components/PostCategoriesNav'
 import Layout from '../components/Layout'
 
 /**
@@ -69,14 +68,6 @@ export const HistoryIndexTemplate = ({
             backgroundImage={featuredImage}
           />
 
-          {!!postCategories.length && (
-            <section className="section thin">
-              <div className="container">
-                <PostCategoriesNav enableSearch categories={postCategories} />
-              </div>
-            </section>
-          )}
-
           {!!posts.length && (
             <section className="section">
               <div className="container">
@@ -91,7 +82,7 @@ export const HistoryIndexTemplate = ({
 )
 
 // Export Default HistoryIndex for front-end
-const HistoryIndex = ({ data: { page, posts, postCategories } }) => (
+const HistoryIndex = ({ data: { page, posts } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
@@ -101,11 +92,6 @@ const HistoryIndex = ({ data: { page, posts, postCategories } }) => (
       {...page.fields}
       {...page.frontmatter}
       posts={posts.edges.map(post => ({
-        ...post.node,
-        ...post.node.frontmatter,
-        ...post.node.fields
-      }))}
-      postCategories={postCategories.edges.map(post => ({
         ...post.node,
         ...post.node.frontmatter,
         ...post.node.fields
@@ -138,7 +124,7 @@ export const pageQuery = graphql`
 
     posts: allMarkdownRemark(
       filter: { fields: { contentType: { eq: "history" } } }
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { order: ASC, fields: [frontmatter___date] }
     ) {
       edges {
         node {
@@ -153,21 +139,6 @@ export const pageQuery = graphql`
               category
             }
             featuredImage
-          }
-        }
-      }
-    }
-    postCategories: allMarkdownRemark(
-      filter: { fields: { contentType: { eq: "postCategories" } } }
-      sort: { order: ASC, fields: [frontmatter___title] }
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
           }
         }
       }

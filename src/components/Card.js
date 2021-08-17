@@ -17,42 +17,21 @@ export default class Card extends React.Component {
     console.log(items)
 
     return (
-      <div className={`Card ${className}`}>
+      <div className={`cards ${className}`}>
         {!!items &&
           items.map((item, index) => (
-            <div className="Card--Content">
-              {item.title && <h3 className="Card--Title">{item.title}</h3>}
-              {item.description && <div className="Card--Text">{item.description}</div>}
+            <div className="card">
+              <figure class="card__thumb">
+              <img src={item.featuredImage} class="card__image" />
+              <figcaption class="card__caption">
+              {item.title && <h2 className="card__title">{item.title}</h2>}
+              {item.description && <p className="card__snippet">{item.description}</p>}
+              <a href={item.canonicalLink} class="card__button">Read more</a>
+              </figcaption>
+              </figure>
             </div>
           ))}
       </div>
     )
   }
 }
-
-// const Card = ({
-//   featuredImage,
-//   title,
-//   excerpt,
-//   slug,
-//   categories = [],
-//   className = '',
-//   ...props
-// }) => (
-//   <Link to={slug} className={`Card ${className}`}>
-//     {featuredImage && (
-//       <div className="Card--Image relative">
-//         <Image background src={featuredImage} alt={title} />
-//       </div>
-//     )}
-//     <div className="Card--Content">
-//       {title && <h3 className="Card--Title">{title}</h3>}
-//       <div className="Card--Category">
-//         {categories && categories.map(cat => cat.category).join(', ')}
-//       </div>
-//       {excerpt && <div className="Card--Excerpt">{excerpt}</div>}
-//     </div>
-//   </Link>
-// )
-
-//export default Card

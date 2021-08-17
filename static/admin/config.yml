@@ -250,14 +250,24 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Title, name: title, widget: string }
           - { label: Featured Image, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown, required: false }
+          - { label: Welcome, name: welcome, widget: markdown }
           - label: 'Card'
             name: 'card'
             required: false
             widget: 'list'
             max: 3
             fields:
+              - { label: Image, name: featuredImage, widget: image, 
+                  options:
+                { media_library: { config: { imageShrink: 2600x2600 } } }, }
               - { name: title, label: title, widget: string, default: '' }
               - { name: description, label: description, widget: markdown }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                }
           - { label: Body, name: body, widget: markdown }
           - label: 'Accordion'
             name: 'accordion'

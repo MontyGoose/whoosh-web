@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: 'https://www.whoosh.org.uk'
   },
   plugins: [
+    'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
     {

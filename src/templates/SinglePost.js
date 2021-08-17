@@ -3,11 +3,13 @@ import _get from 'lodash/get'
 import { Link, graphql } from 'gatsby'
 import { ChevronLeft } from 'react-feather'
 
+import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './SinglePost.css'
 
 export const SinglePostTemplate = ({
+  featuredImage,
   title,
   date,
   body,
@@ -17,48 +19,21 @@ export const SinglePostTemplate = ({
 }) => (
   <main>
     <article
-      className="SinglePost section light"
+      className="SinglePost light"
       itemScope
       itemType="http://schema.org/BlogPosting"
     >
+      <PageHeader
+        small
+        title={title}
+        subtitle={date}
+        backgroundImage={featuredImage}
+      />
       <div className="container skinny">
         <Link className="SinglePost--BackButton" to="/blog/">
           <ChevronLeft /> BACK
         </Link>
         <div className="SinglePost--Content relative">
-          <div className="SinglePost--Meta">
-            {date && (
-              <time
-                className="SinglePost--Meta--Date"
-                itemProp="dateCreated pubdate datePublished"
-                date={date}
-              >
-                {date}
-              </time>
-            )}
-            {categories && (
-              <Fragment>
-                <span>|</span>
-                {categories.map((cat, index) => (
-                  <span
-                    key={cat.category}
-                    className="SinglePost--Meta--Category"
-                  >
-                    {cat.category}
-                    {/* Add a comma on all but last category */}
-                    {index !== categories.length - 1 ? ',' : ''}
-                  </span>
-                ))}
-              </Fragment>
-            )}
-          </div>
-
-          {title && (
-            <h1 className="SinglePost--Title" itemProp="title">
-              {title}
-            </h1>
-          )}
-
           <div className="SinglePost--InnerContent">
             <Content source={body} />
           </div>
@@ -119,6 +94,7 @@ export const pageQuery = graphql`
       html
       id
       frontmatter {
+        featuredImage
         title
         template
         subtitle
