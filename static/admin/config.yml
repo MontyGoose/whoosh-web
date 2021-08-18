@@ -323,13 +323,14 @@ collections: # A list of collections the CMS should be able to edit
         name: 'section'
         widget: 'list'
         fields:
-        - { name: image, label: Image, widget: image, default: '' }
+        - { name: image, label: Image, widget: image, default: '', required: false}
         - label: "Align Image"
           name: "align"
-          widget: "select"
+          widget: "select" 
+          required: false
           options: ["left", "center", "right"]
         - { name: content, label: Content, widget: markdown }
-      - { label: Body, name: body, widget: markdown }
+      - { label: Body, name: body, widget: markdown, required: false }
       - label: 'Meta'
         required: false
         name: 'meta'
@@ -377,13 +378,14 @@ collections: # A list of collections the CMS should be able to edit
         name: 'section'
         widget: 'list'
         fields:
-        - { name: image, label: Image, widget: image, default: '' }
+        - { name: image, label: Image, widget: image, default: '', required: false }
         - label: "Align Image"
           name: "align"
           widget: "select"
+            required: false
           options: ["left", "center", "right"]
         - { name: content, label: Content, widget: markdown }
-      - { label: Content, name: body, widget: markdown }
+      - { label: Content, name: body, widget: markdown, required: false }
       - label: 'Meta'
         required: false
         name: 'meta'

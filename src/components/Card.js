@@ -21,8 +21,8 @@ export default class Card extends React.Component {
         {!!items &&
           items.map((item, index) => (
             <div className="card">
-              <figure class="card__thumb">
-              <img src={item.featuredImage} class="card__image" />
+              <figure className="card__thumb">
+              <img src={item.featuredImage} alt="" className="card__image" />
               <figcaption class="card__caption">
               {item.title && <h2 className="card__title">{item.title}</h2>}
               {item.description && <p className="card__snippet">{item.description}</p>}

@@ -62,7 +62,6 @@ export const ContactPageTemplate = ({
       </div>
     </section>
 
-    <GoogleMap locations={locations} />
   </main>
 )
 
@@ -87,15 +86,31 @@ export const pageQuery = graphql`
         template
         subtitle
         featuredImage
-        address
-        phone
         email
-        locations {
-          mapLink
-          lat
-          lng
-        }
       }
     }
   }
 `
+
+// export const pageQuery = graphql`
+//   query ContactPage($id: String!) {
+//     page: markdownRemark(id: { eq: $id }) {
+//       ...Meta
+//       html
+//       frontmatter {
+//         title
+//         template
+//         subtitle
+//         featuredImage
+//         address
+//         phone
+//         email
+//         locations {
+//           mapLink
+//           lat
+//           lng
+//         }
+//       }
+//     }
+//   }
+// `

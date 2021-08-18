@@ -23,11 +23,13 @@ export const DefaultPageTemplate = ({
     {!!section &&
     section.map((section, index) => (
     <div className="section">
+      <div className="container">
      {!!section.image && <div className={`Section--Image ${section.align}`} >
         <img src={section.image} alt = "" />
       </div>
       }
       <Content source={section.content} />
+      </div>
     </div>
     ))}
 

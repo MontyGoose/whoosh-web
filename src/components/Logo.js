@@ -5,7 +5,7 @@ export default () => (
   <div
     className="Logo"
     style={{
-      backgroundImage: `url(/images/whoosh_logo.svg)`
+      backgroundImage: `url(/images/whoosh_logo.png)`
     }}
   />
 )

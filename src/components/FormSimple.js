@@ -32,7 +32,7 @@ export default ({
         required
       />
     </label>
-    <label className='Form--Label has-arrow'>
+    {/* <label className='Form--Label has-arrow'>
       <select
         className='Form--Input Form--Select'
         name='type'
@@ -46,7 +46,7 @@ export default ({
         <option>Found a bug</option>
         <option>Want to say hello</option>
       </select>
-    </label>
+    </label> */}
     <label className='Form--Label'>
       <textarea
         className='Form--Input Form--Textarea'
