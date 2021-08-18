@@ -35,12 +35,16 @@ export const SinglePostTemplate = ({
           <ChevronLeft /> BACK
         </Link>
         <div className="SinglePost--Content relative">
+
           <div className="SinglePost--InnerContent">
           {!!section &&
           section.map((section, index) => (
             <div className="section">
+              {!!section.image && <div className={`Section--Image ${section.align}`} >
+                <img src={section.image} alt="" />
+              </div>
+              }           
               <Content source={section.content} />
-              <img src={section.image} className={`SinglePost--Image ${section.align}`} />
             </div>
           ))}
             <Content source={body} />

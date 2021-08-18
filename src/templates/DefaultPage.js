@@ -10,6 +10,7 @@ export const DefaultPageTemplate = ({
   title,
   subtitle,
   featuredImage,
+  section,
   body
 }) => (
   <main className="DefaultPage">
@@ -18,6 +19,17 @@ export const DefaultPageTemplate = ({
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
+
+    {!!section &&
+    section.map((section, index) => (
+    <div className="section">
+     {!!section.image && <div className={`Section--Image ${section.align}`} >
+        <img src={section.image} alt = "" />
+      </div>
+      }
+      <Content source={section.content} />
+    </div>
+    ))}
 
     <section className="section">
       <div className="container">
@@ -46,6 +58,11 @@ export const pageQuery = graphql`
         title
         subtitle
         featuredImage
+        section {
+          image
+          align
+          content
+        }
       }
     }
   }

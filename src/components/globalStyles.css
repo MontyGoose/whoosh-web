@@ -237,3 +237,20 @@ blockquote {
   align-items: center;
   justify-content: center;
 }
+
+.Section--Image img {
+  /*width: 200px;*/
+}
+
+.Section--Image.center {
+  text-align: center;
+ }
+
+.Section--Image.left {
+  float: left;    
+  margin: 0 15px 0 0;
+ }
+.Section--Image.right {
+ float: right;    
+ margin: 0 0 0 15px;
+}
