@@ -9,7 +9,7 @@ import Card from '../components/Card'
 
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, subtitle, featuredImage, welcome, card, accordion, body
+export const HomePageTemplate = ({ title, subtitle, featuredImage, welcome, card, section, accordion, body
 }) => (
   <main className="Home">
     <PageHeader
@@ -30,6 +30,19 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, welcome, card
         <Card items={card} />
       </div>
     </section>
+
+    {!!section &&
+    section.map((section, index) => (
+    <div className="section">
+      <div className="container">
+        {!!section.image && <div className={`Section--Image ${section.align}`} >
+          <img src={section.image} alt="" />
+        </div>
+        }           
+        <Content source={section.content} />
+      </div>
+    </div>
+    ))}
 
     <section className="section">
       <div className="container">
@@ -75,9 +88,10 @@ export const pageQuery = graphql`
           description
           canonicalLink
         }
-        accordion {
-          title
-          description
+        section {
+          image
+          align
+          content
         }
       }
     }

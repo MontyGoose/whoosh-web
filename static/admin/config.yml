@@ -268,6 +268,17 @@ collections: # A list of collections the CMS should be able to edit
                   widget: string,
                   required: false,
                 }
+          - label: 'Section'
+            name: 'section'
+            widget: 'list'
+            fields:
+              - { name: image, label: Image, widget: image, default: '', required: false}
+              - label: "Align Image"
+                name: "align"
+                widget: "select" 
+                required: false
+                options: ["left", "center", "right"]
+              - { name: content, label: Content, widget: markdown }
           - { label: Body, name: body, widget: markdown }
           - label: 'Accordion'
             name: 'accordion'
@@ -382,7 +393,7 @@ collections: # A list of collections the CMS should be able to edit
         - label: "Align Image"
           name: "align"
           widget: "select"
-            required: false
+          required: false
           options: ["left", "center", "right"]
         - { name: content, label: Content, widget: markdown }
       - { label: Content, name: body, widget: markdown, required: false }
