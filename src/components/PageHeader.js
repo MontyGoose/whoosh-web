@@ -26,11 +26,13 @@ const PageHeader = ({
           size="cover"
         />
       )}
-      <div className="container relative">
+      <div className="bgcontainer relative">
+        <div className="hero-text">
         <h1 className="PageHeader--Title">{title}</h1>
         {subtitle && (
           <Content className="PageHeader--Subtitle" src={subtitle} />
         )}
+        </div>
       </div>
     </div>
   )
