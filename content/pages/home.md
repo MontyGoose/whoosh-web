@@ -1,20 +1,33 @@
 ---
 template: HomePage
 slug: ""
-title: Whoosh
+title: Whoosh CC
 featuredImage: https://ucarecdn.com/7e3902dc-ac6d-4fe2-a50e-ed102f394cee/
-subtitle: " Welcome to Whoosh!"
-welcome: |-
+subtitle: " A South London Community Cycling Group"
+welcome: >-
   ## Hello and welcome to Whoosh!
 
-  The ultimate in stuff
 
-  and other suff ! :-)
+  There is not one story! There is not even one
+
+  story of a given day of a given ride. We split up.
+
+  We get lost. We have bad days and good days
+
+  but not always on the same days as everyone
+
+  else’s good or bad days.   
+
+
+
+  Everyone experiences
+
+  Whoosh differently - but perhaps this website will give you a glimpse of what Whoosh is all about.
 card:
   - title: "2021: From Reading to Reading"
     description: Details of this years 248 mile circular tour
     featuredImage: https://ucarecdn.com/4a829a75-b38d-455e-a9cc-4ab65f986f41/
-    canonicalLink: /about
+    canonicalLink: /posts/2021-whoosh/
   - title: How did all this start?
     description: Want to know how Whoosh started and what it's all about?
     featuredImage: https://ucarecdn.com/0d5a15ca-cf8f-4f41-968b-d7bbe74cdfee/

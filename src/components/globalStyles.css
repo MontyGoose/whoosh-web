@@ -189,6 +189,10 @@ blockquote {
   padding: 0;
 }
 
+.section.background-colour {
+    background-color: var(--primary-60);	
+}
+
 @media (max-width: 600px) {
   .section {
     width: 100%;

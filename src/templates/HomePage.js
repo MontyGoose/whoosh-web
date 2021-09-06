@@ -19,7 +19,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, welcome, card
       backgroundImage={featuredImage}
     />
 
-    <section className="section">
+    <section className="section background-colour">
       <div className="container">
         <Content source={welcome} />
       </div>
@@ -37,8 +37,8 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, welcome, card
           </a>
         </figure>
       </div> 
-      <h3 class="has-text-align-center">Social</h3> 
-      <p class="has-text-align-center">114 riders; 5200 miles</p>
+      <h3 class="has-text-align-center">About us</h3> 
+      <p class="has-text-align-center">114 riders; 5200 miles; 1000s of cakes ....</p>
     </div>
     <div class="wp-block-column tri-years"> 
       <div class="wp-block-image is-style-default">
@@ -49,18 +49,18 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, welcome, card
         </figure>
       </div> 
       <h3 class="has-text-align-center">History</h3> 
-      <p class="has-text-align-center">18 years ; 87 days</p>
+      <p class="has-text-align-center">18 years; 87 days; 27 YHAs; 13 ferries ....</p>
     </div>
     <div class="wp-block-column tri-fundraise"> 
       <div class="wp-block-image is-style-default">
         <figure class="aligncenter size-large">
-          <a href="/history/chairties">
+          <a href="/history/fundraising">
             <img loading="lazy" width="63" height="54" src="/images/fundraise.png" alt="" />
           </a>
         </figure>
       </div> 
       <h3 class="has-text-align-center">Fundraising</h3> 
-      <p class="has-text-align-center">£220,000 (and rising) raised for over 15 charities</p>
+      <p class="has-text-align-center">£220,000 (and rising) raised for over 40 different good causes .....</p>
     </div>  
     </div>
     </div>      

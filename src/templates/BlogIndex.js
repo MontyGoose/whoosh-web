@@ -152,6 +152,7 @@ export const pageQuery = graphql`
             categories {
               category
             }
+            excerpt
             featuredImage
           }
         }

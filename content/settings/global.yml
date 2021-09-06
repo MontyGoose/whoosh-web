@@ -1,8 +1,6 @@
 siteTitle: Whoosh
-siteUrl: 'https://www.whoosh.org.uk'
-siteDescription: >-
-  A starter project for creating lightning-fast websites with Gatsby v2 Netlify
-  CMS v2 and Uploadcare media library.
+siteUrl: https://www.whoosh.org.uk
+siteDescription: Whoosh CC - A South London community cycle group
 socialMediaCard:
-  image: 'https://ucarecdn.com/fcc8d148-a9a8-42ee-a793-0f12b1437f61/'
-googleTrackingId: 'UA-133175780-1'
+  image: https://ucarecdn.com/cd05fcb2-7d28-4121-9983-764565286e2c/
+googleTrackingId: UA-133175780-1

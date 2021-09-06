@@ -22,3 +22,35 @@
   width: 100%;
   height: 100%;
 }
+
+.Content table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.Content thead tr {
+  background-color: var(--primary);
+  color: var(--white);
+  text-align: left;
+}
+
+.Content th,
+.Content td {
+    padding: 12px 15px;
+}
+
+.Content tbody tr {
+  border-bottom: thin solid var(--lightGrey);
+}
+
+.Content tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.Content tbody tr:last-of-type {
+  border-bottom: 2px solid var(--primary);
+}
