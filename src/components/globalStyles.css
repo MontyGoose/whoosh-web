@@ -411,6 +411,11 @@ blockquote {
 .wp-block-column:not(:first-child) {
   margin-left: 2em;
 }
+@media only screen and (max-width: 699px) {
+.wp-block-column:not(:first-child) {
+  margin-left: 0;
+}
+}
 .wp-block-columns {
     display: flex;
     margin-bottom: 1.75em;
