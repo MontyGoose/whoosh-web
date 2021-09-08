@@ -26,14 +26,14 @@ welcome: >-
 card:
   - title: "2021: King Alfred's Way"
     description: Details of this years 248 mile circular tour
-    featuredImage: https://ucarecdn.com/58034320-bf0b-4db3-ad90-828c13d5f629/
+    featuredImage: https://ucarecdn.com/b55b26ae-8669-46cd-944f-dd84218e39dc/
     canonicalLink: /posts/2021-whoosh/
   - title: How did all this start?
     description: Want to know how Whoosh started and what it's all about?
     featuredImage: https://ucarecdn.com/0d5a15ca-cf8f-4f41-968b-d7bbe74cdfee/
     canonicalLink: /about-us
   - title: "Whoosh 21: Fundraising"
-    featuredImage: https://ucarecdn.com/8cf1efb2-e1f7-4f9e-8e7c-4db11735b8b2/
+    featuredImage: https://ucarecdn.com/3a3fb342-c3cb-4303-babe-a7ca54e84541/
     description: Details of each project we are supporting this year with links to
       how you can donate too.
     canonicalLink: /posts/2021-fundraising/
