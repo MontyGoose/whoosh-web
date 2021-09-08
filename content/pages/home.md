@@ -33,7 +33,7 @@ card:
     featuredImage: https://ucarecdn.com/0d5a15ca-cf8f-4f41-968b-d7bbe74cdfee/
     canonicalLink: /about-us
   - title: "Whoosh 21: Fundraising"
-    featuredImage: https://ucarecdn.com/da9c5852-ceed-449e-bf40-65cfb1f2f36d/
+    featuredImage: https://ucarecdn.com/8cf1efb2-e1f7-4f9e-8e7c-4db11735b8b2/
     description: Details of each project we are supporting this year with links to
       how you can donate too.
     canonicalLink: /posts/2021-fundraising/
