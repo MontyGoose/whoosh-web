@@ -13,6 +13,8 @@ meta:
   noindex: false
   title: Whoosh21
 ---
+![](https://ucarecdn.com/8807afd6-634a-4efe-ad51-079d7290e66b/)
+
 ### Outline route and dates
 
 | Day | Date         | Route                               | Mileage      | Features                                                                                                                                                      |
@@ -41,8 +43,6 @@ Accommodation ranges through Ibis Hotels, beds, settees, floors, Bongo and tents
 * The health centre is built. Our fundraising is going to help equip and staff it.
 * We hope that John Itumu will join us for some of the prologue.
 * Our Virgin Giving page is here: https://uk.virginmoneygiving.com/Whoosh2021
-
-  
 
 #### First Steps Trust
 
