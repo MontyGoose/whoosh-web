@@ -24,9 +24,9 @@ welcome: >-
 
   Whoosh differently - but perhaps this website will give you a glimpse of what Whoosh is all about.
 card:
-  - title: "2021: From Reading to Reading"
+  - title: "2021: King Alfred's Way"
     description: Details of this years 248 mile circular tour
-    featuredImage: https://ucarecdn.com/4a829a75-b38d-455e-a9cc-4ab65f986f41/
+    featuredImage: https://ucarecdn.com/58034320-bf0b-4db3-ad90-828c13d5f629/
     canonicalLink: /posts/2021-whoosh/
   - title: How did all this start?
     description: Want to know how Whoosh started and what it's all about?
