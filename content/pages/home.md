@@ -36,7 +36,7 @@ card:
     featuredImage: https://ucarecdn.com/da9c5852-ceed-449e-bf40-65cfb1f2f36d/
     description: Details of each project we are supporting this year with links to
       how you can donate too.
-    canonicalLink: /posts/2021-fundraise/
+    canonicalLink: /posts/2021-fundraising/
 section: []
 accordion: []
 meta:
