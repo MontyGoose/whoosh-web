@@ -25,6 +25,12 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, welcome, card
       </div>
     </section>
 
+    <section className="section">
+      <div className="container">
+        <Card items={card} />
+      </div>
+    </section>
+
     <section className="section wp-block-columns services_triptych">
     <div className="container">
     <div className="wp-block-columns services_triptych">
@@ -64,12 +70,6 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, welcome, card
     </div>  
     </div>
     </div>      
-    </section>
-
-    <section className="section">
-      <div className="container">
-        <Card items={card} />
-      </div>
     </section>
 
     {!!section &&
