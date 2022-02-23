@@ -32,11 +32,11 @@ card:
     description: Want to know how Whoosh started and what it's all about?
     featuredImage: https://ucarecdn.com/0d5a15ca-cf8f-4f41-968b-d7bbe74cdfee/
     canonicalLink: /about-us
-  - title: "Whoosh 21: Fundraising"
+  - title: "Whoosh 22: Fundraising"
     featuredImage: https://ucarecdn.com/3a3fb342-c3cb-4303-babe-a7ca54e84541/
     description: Details of each project we are supporting this year with links to
       how you can donate too.
-    canonicalLink: /posts/2021-fundraising/
+    canonicalLink: /posts/2022-fundraising/
 section: []
 accordion: []
 meta:
