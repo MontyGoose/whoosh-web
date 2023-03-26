@@ -24,10 +24,10 @@ welcome: >-
 
   Whoosh differently - but perhaps this website will give you a glimpse of what Whoosh is all about.
 card:
-  - title: "2022: Hull to Carlisle"
+  - title: "2023: Cairngorm Challenge"
     description: Details of this years tour
     featuredImage: https://ucarecdn.com/b55b26ae-8669-46cd-944f-dd84218e39dc/
-    canonicalLink: /posts/2022-whoosh/
+    canonicalLink: /posts/2023-whoosh/
   - title: How did all this start?
     description: Want to know how Whoosh started and what it's all about?
     featuredImage: https://ucarecdn.com/0d5a15ca-cf8f-4f41-968b-d7bbe74cdfee/
