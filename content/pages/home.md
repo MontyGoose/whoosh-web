@@ -24,19 +24,19 @@ welcome: >-
 
   Whoosh differently - but perhaps this website will give you a glimpse of what Whoosh is all about.
 card:
-  - title: "2023: Cairngorm Challenge"
+  - title: "2024: Tenby to Llandudno"
     description: Details of this years tour
     featuredImage: https://ucarecdn.com/b55b26ae-8669-46cd-944f-dd84218e39dc/
-    canonicalLink: /posts/2023-whoosh/
+    canonicalLink: /posts/2024-whoosh/
   - title: How did all this start?
     description: Want to know how Whoosh started and what it's all about?
     featuredImage: https://ucarecdn.com/0d5a15ca-cf8f-4f41-968b-d7bbe74cdfee/
     canonicalLink: /about-us
-  - title: "Whoosh 23: Fundraising"
+  - title: "Whoosh 24: Fundraising"
     featuredImage: https://ucarecdn.com/3a3fb342-c3cb-4303-babe-a7ca54e84541/
     description: Details of the project we are supporting this year with links to
       how you can donate too.
-    canonicalLink: /posts/2023-fundraising/
+    canonicalLink: /posts/2024-whoosh/
 section: []
 accordion: []
 meta:
