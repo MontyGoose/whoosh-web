@@ -30,7 +30,7 @@ card:
     canonicalLink: /posts/2025-whoosh/
   - title: How did all this start?
     description: Want to know how Whoosh started and what it's all about?
-    featuredImage: https://ucarecdn.com/0d5a15ca-cf8f-4f41-968b-d7bbe74cdfee/
+    featuredImage: https://ucarecdn.com/ee823aca-91f2-4ca9-a1b4-ff4d64ae8218/
     canonicalLink: /about-us
   - title: "Whoosh 25: Fundraising"
     featuredImage: https://ucarecdn.com/2d860392-1c15-4a93-af8f-48f6d3c240a9/
