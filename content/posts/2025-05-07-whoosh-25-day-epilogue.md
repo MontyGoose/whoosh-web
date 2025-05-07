@@ -9,6 +9,8 @@ excerpt: |-
   37.5 miles
   0.75 miles on Iona, 36.75 miles on Mull
   1,400ft of climbing
+categories:
+  - category: Updates
 ---
 # Whoosh 2025, Epilogue
 
