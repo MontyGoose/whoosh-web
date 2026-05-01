@@ -7,16 +7,7 @@ backend:
 
 # display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CMS
 media_folder: static/images
-media_library:
-  name: uploadcare
-  config:
-    publicKey: 89028130b4474bedc909
-    multiple: false
-    tabs: 'file camera url facebook gdrive'
-    effects: 'crop,rotate,enhance,grayscale'
-    imageShrink: '2000x2000'
-    previewStep: true
-    clearable: true
+public_folder: /images
 
 collections: # A list of collections the CMS should be able to edit
   - name: 'pages'
@@ -37,13 +28,7 @@ collections: # A list of collections the CMS should be able to edit
             }
           - { label: Slug, name: slug, widget: hidden, default: 'contact' }
           - { label: Title, name: title, widget: string }
-          - {
-              label: Featured Image,
-              name: featuredImage,
-              widget: image,
-              options:
-                { media_library: { config: { imageShrink: 2600x2600 } } },
-            }
+          - { label: Featured Image, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown }
           - { label: Body, name: body, widget: markdown }
           - { label: Address, name: address, widget: text }
@@ -257,9 +242,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: 'list'
             max: 3
             fields:
-              - { label: Image, name: featuredImage, widget: image, 
-                  options:
-                { media_library: { config: { imageShrink: 2600x2600 } } }, }
+              - { label: Image, name: featuredImage, widget: image }
               - { name: title, label: title, widget: string, default: '' }
               - { name: description, label: description, widget: markdown }
               - {
