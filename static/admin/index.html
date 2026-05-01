@@ -8,8 +8,11 @@
 </head>
 <body>
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script src="https://unpkg.com/netlify-cms-backend-github@^2.0.0/dist/netlify-cms-backend-github.js"></script>
   <script>
     var CMS = window.CMS;
+    var GithubBackend = window.CMSBackendGithub;
+    CMS.registerBackend('github', GithubBackend);
     CMS.init();
   </script>
 </body>
