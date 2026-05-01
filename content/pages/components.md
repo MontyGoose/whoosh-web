@@ -2,7 +2,7 @@
 template: ComponentsPage
 slug: components
 title: Components Page
-featuredImage: https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/
+featuredImage: /images/df0dc650-6938-412f-aefb-2019d2349e13.jpg
 subtitle: This is the components page subtitle.
 section1: >-
   ## This is a container component
@@ -16,8 +16,8 @@ section2: >-
 
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/_m2CHvfVK5I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-video: https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/
-videoPoster: https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/
+video: /images/e6979298-66d6-4245-b496-6e5a5d507135.jpg
+videoPoster: /images/69ba14a8-6481-4671-abb6-0e6f0d9c3e46.jpg
 videoTitle: Also background videos, with poster image & title overlay.
 accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse
@@ -30,13 +30,13 @@ accordion:
     title: Taciti lorem
 gallery:
   - alt: yellow rope image
-    image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
+    image: /images/277cdf82-24aa-4d80-8169-bb46f4cd319d.jpg
     title: Yellow Rope
   - alt: umbrellas
-    image: https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/
+    image: /images/5da63204-4ff0-4235-aac3-852921d7c632.jpg
     title: a bunch of umbrellas
   - alt: yellow ice cream
-    image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
+    image: /images/83485d70-1552-4c97-b237-22330fb56a1e.jpg
     title: Yellow Ice Cream
 meta:
   description: This is a meta description.

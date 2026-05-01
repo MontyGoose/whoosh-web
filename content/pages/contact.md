@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Contact Page
-featuredImage: https://ucarecdn.com/efd0882f-3f6e-4aba-a64b-8a446183474a/
+featuredImage: /images/efd0882f-3f6e-4aba-a64b-8a446183474a.jpg
 subtitle: Want to send us a special message?
 address: .
 phone: .

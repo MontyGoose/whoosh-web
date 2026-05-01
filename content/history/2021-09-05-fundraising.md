@@ -3,7 +3,7 @@ template: SinglePost
 title: Fundraising
 status: Published
 date: 2021-09-05
-featuredImage: https://ucarecdn.com/80cca4ac-e558-483c-92c3-03705ce8d026/
+featuredImage: /images/80cca4ac-e558-483c-92c3-03705ce8d026.jpg
 excerpt: |-
   Fundraising has always been a worthwhile side product
   of Whoosh, not its raison d’etre. We have

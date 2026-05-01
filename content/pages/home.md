@@ -2,7 +2,7 @@
 template: HomePage
 slug: ""
 title: Whoosh CC
-featuredImage: https://ucarecdn.com/7e3902dc-ac6d-4fe2-a50e-ed102f394cee/
+featuredImage: /images/7e3902dc-ac6d-4fe2-a50e-ed102f394cee.jpg
 subtitle: " A South London Community Cycling Group"
 welcome: >-
   ## Hello and welcome to Whoosh!
@@ -26,14 +26,14 @@ welcome: >-
 card:
   - title: "2025: Lindisfarne to Iona"
     description: Details of this years tour
-    featuredImage: https://ucarecdn.com/126328be-2f0c-493d-9ca7-61ef0f0e0154/
+    featuredImage: /images/126328be-2f0c-493d-9ca7-61ef0f0e0154.jpg
     canonicalLink: /posts/2025-whoosh/
   - title: How did all this start?
     description: Want to know how Whoosh started and what it's all about?
-    featuredImage: https://ucarecdn.com/ee823aca-91f2-4ca9-a1b4-ff4d64ae8218/
+    featuredImage: /images/ee823aca-91f2-4ca9-a1b4-ff4d64ae8218.jpg
     canonicalLink: /about-us
   - title: "Whoosh 25: Fundraising"
-    featuredImage: https://ucarecdn.com/2d860392-1c15-4a93-af8f-48f6d3c240a9/
+    featuredImage: /images/2d860392-1c15-4a93-af8f-48f6d3c240a9.jpg
     description: Details of the project we are supporting this year with links to
       how you can donate too.
     canonicalLink: /posts/2025-whoosh/

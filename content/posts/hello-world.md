@@ -3,7 +3,7 @@ template: SinglePost
 title: 2021 Whoosh
 status: Featured
 date: 2021-09-06
-featuredImage: https://ucarecdn.com/0300598d-1d27-4c03-867e-6861f3775ea5/
+featuredImage: /images/0300598d-1d27-4c03-867e-6861f3775ea5.jpg
 excerpt: Reading to Reading
 categories:
   - category: News
@@ -13,7 +13,7 @@ meta:
   noindex: false
   title: Whoosh21
 ---
-![](https://ucarecdn.com/8807afd6-634a-4efe-ad51-079d7290e66b/)
+![](/images/8807afd6-634a-4efe-ad51-079d7290e66b.jpg)
 
 ### Outline route and dates
 
