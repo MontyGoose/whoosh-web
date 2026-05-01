@@ -1,7 +1,6 @@
 # See https://github.com/netlify/netlify-cms/blob/master/example/config.yml
 backend:
-  name: github
-  repo: MontyGoose/whoosh-web
+  name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 #local_backend: true
 
