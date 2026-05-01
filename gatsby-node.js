@@ -1,7 +1,6 @@
 const _ = require('lodash')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
-const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -64,9 +63,6 @@ exports.createPages = ({ actions, graphql }) => {
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
-  // convert frontmatter images
-  fmImagesToRelative(node)
-
   // Create smart slugs
   // https://github.com/Vagr9K/gatsby-advanced-starter/blob/master/gatsby-node.js
   let slug
@@ -108,9 +104,18 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 }
 
 exports.onCreateWebpackConfig = ({ getConfig, actions }) => {
-  if (getConfig().mode === 'production') {
+  const config = getConfig();
+  
+  if (config.mode === 'production') {
     actions.setWebpackConfig({
-      devtool: false
+      devtool: false,
+      resolve: {
+        ...config.resolve,
+        fallback: {
+          ...config.resolve.fallback,
+          path: require.resolve('path-browserify')
+        }
+      }
     });
   }
 };

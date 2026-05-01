@@ -51,14 +51,12 @@ module.exports = {
     // images
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    'gatsby-plugin-image',
 
     {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          // gatsby-remark-relative-images must
-          // go before gatsby-remark-images
-          'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-images',
             options: {
@@ -102,14 +100,14 @@ module.exports = {
       }
     },
     'gatsby-plugin-sitemap',
-    {
-      resolve: 'gatsby-plugin-netlify-cms',
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
-        stylesPath: `${__dirname}/src/cms/admin.css`,
-        enableIdentityWidget: true
-      }
-    },
+    // {
+    //   resolve: 'gatsby-plugin-netlify-cms',
+    //   options: {
+    //     modulePath: `${__dirname}/src/cms/cms.js`,
+    //     stylesPath: `${__dirname}/src/cms/admin.css`,
+    //     enableIdentityWidget: true
+    //   }
+    // },
     'gatsby-plugin-netlify' // make sure to keep it last in the array
   ]
 }
